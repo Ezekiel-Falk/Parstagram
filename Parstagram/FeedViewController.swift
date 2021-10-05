@@ -28,7 +28,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidAppear(animated)
         
         let query = PFQuery(className:"Posts")
-        query.includeKey("author")
+        query.includeKey("auther")
         query.limit = 20
         
         query.findObjectsInBackground { (posts, error) in
@@ -48,7 +48,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let post = posts[indexPath.row]
         
-        let user = post["author"] as! PFUser
+        let user = post["auther"] as! PFUser
         cell.usernameLable.text = user.username
         
         cell.captionLable.text = post["caption"] as! String
@@ -58,7 +58,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let url = URL(string: urlString)!
         
         cell.photoView.af_setImage(withURL: url)
-        
         
         return cell
     }
