@@ -2,17 +2,17 @@
 
 This is an Instagram clone with a custom Parse backend that allows a user to post photos and view a global photos feed.
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-- [ ] User sees app icon in home screen and styled launch screen. (1pt)
-- [ ] User can sign up to create a new account. (1pt)
-- [ ] User can log in. (1pt)
-- [ ] User can take a photo, add a caption, and post it to the server. (3pt)
-- [ ] User can view the last 20 posts. (4pts)
+- [X] User sees app icon in home screen and styled launch screen. (1pt)
+- [X] User can sign up to create a new account. (1pt)
+- [X] User can log in. (1pt)
+- [X] User can take a photo, add a caption, and post it to the server. (3pt)
+- [X] User can view the last 20 posts. (4pts)
 
 The following **bonus** features are implemented:
 
@@ -23,4 +23,12 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![IG_1](https://user-images.githubusercontent.com/88115439/135945286-eae9b267-c2d7-4904-adc1-56b64259b680.gif)
+
+![IG_2](https://user-images.githubusercontent.com/88115439/135945294-eb3faec1-1074-4768-a001-00cdcd4ba1be.gif)
+
+
+![IG_3](https://user-images.githubusercontent.com/88115439/135945385-ae3e0deb-9b54-41c4-b494-bf9fbe605a0f.gif)
+
+![IG_4](https://user-images.githubusercontent.com/88115439/135946028-fd434989-d507-4659-a448-19d96e8c5084.gif)
