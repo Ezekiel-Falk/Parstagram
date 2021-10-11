@@ -28,7 +28,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidAppear(animated)
         
         let query = PFQuery(className:"Posts")
-        query.includeKeys(["auther", "comments", "comment.auther"])
+        query.includeKeys(["auther", "comments", "comment.author"])
         query.limit = 20
         
         query.findObjectsInBackground { (posts, error) in
@@ -75,7 +75,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let comment = comments[indexPath.row - 1]
             cell.commentLabel.text = comment["text"] as? String
             
-            let user = comment["auther"] as! PFUser
+            let user = comment["author"] as! PFUser
             cell.nameLabel.text = user.username
             
             return cell
@@ -89,7 +89,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let comment = PFObject(className: "Comments")
         comment["text"] = "This is a random comments"
         comment["post"] = post
-        comment["auther"] = PFUser.current()!
+        comment["author"] = PFUser.current()!
         
         post.add(comment, forKey: "comments")
         
