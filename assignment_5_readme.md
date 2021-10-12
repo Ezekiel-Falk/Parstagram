@@ -22,8 +22,11 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![ezgif com-gif-maker copy 2](https://user-images.githubusercontent.com/88115439/136882612-d0c16c5c-d8da-4ef9-b9a9-53e4dff14427.gif)
 
+![ezgif com-gif-maker copy](https://user-images.githubusercontent.com/88115439/136882618-16784d27-a620-4723-883b-c93c83b68c87.gif)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/88115439/136882629-6d3a326e-4874-4191-b326-11447ef5a4b6.gif)
 
 # Parstagram - Part I
 
